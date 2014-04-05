@@ -43,3 +43,28 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+gem 'rails_config'
+
+gem 'acts_as_votable'
+
+gem 'devise', github: 'plataformatec/devise'
+
+gem 'omniauth'
+
+gem 'omniauth-facebook'
+
+gem 'dotenv-rails', group: [:development, :test]
+
+gem 'delayed_job', github: 'collectiveidea/delayed_job'
+
+gem 'delayed_job_active_record', github: 'collectiveidea/delayed_job_active_record'
+
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+
+gem 'bootstrap-sass-extras'
+
+gem 'pry-rails', group: :development
+
+gem 'validates_formatting_of'
